@@ -7,7 +7,56 @@ Clevo tabanlı **Monster** dizüstülerin **tek bölge RGB** klavye ışığı i
 
 ![Klavye Işık Stüdyosu](docs/ekran-goruntusu.png)
 
-**[⬇️ İndir (Releases)](../../releases/latest)** · [Windows engelliyorsa ne yapmalı?](#windows-programı-engelliyorsa)
+**[⬇️ İndir (Releases)](../../releases/latest)** · **[Modelini bul](#modelini-bul)** · [Windows engelliyorsa ne yapmalı?](#windows-programı-engelliyorsa)
+
+## Modelini bul
+
+Program açıldığında modeli ve klavye türünü BIOS'tan **kendisi okur** ve üst satırda gösterir (örn. `Monster Abra A5 V16.7 · Tek bölge RGB · Doğrudan sürücü bağlantısı`).
+
+Modeline tıkla; kurulum ve o modele özel bilgiler ayrı sayfada. **Hepsi için indirme dosyası aynı** — program modeli kendisi tanır.
+
+**Monster Abra A5:** [V15](modeller/monster-abra-a5-v15.md) · [V16.6](modeller/monster-abra-a5-v16-6.md) · [V16.7](modeller/monster-abra-a5-v16-7.md) · [V16.8](modeller/monster-abra-a5-v16-8.md) · [V17.2](modeller/monster-abra-a5-v17-2.md) · [V17.4](modeller/monster-abra-a5-v17-4.md) · [V20](modeller/monster-abra-a5-v20.md) · [V21](modeller/monster-abra-a5-v21.md) · [V22](modeller/monster-abra-a5-v22.md)
+
+**Monster Abra A7:** [V12.2](modeller/monster-abra-a7-v12-2.md) · [V12.5](modeller/monster-abra-a7-v12-5.md) · [V13.2](modeller/monster-abra-a7-v13-2.md) · [V15.3](modeller/monster-abra-a7-v15-3.md) · [V16.2](modeller/monster-abra-a7-v16-2.md)
+
+**Monster Tulpar T5:** [V23.2](modeller/monster-tulpar-t5-v23-2.md)
+
+**Monster Tulpar T6:** [V3](modeller/monster-tulpar-t6-v3.md)
+
+| Model | Klavye | Durum |
+|---|---|---|
+| [Monster Abra A5 V15](modeller/monster-abra-a5-v15.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Abra A5 V16.6](modeller/monster-abra-a5-v16-6.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A5 V16.7](modeller/monster-abra-a5-v16-7.md) | Tek bölge RGB | ✅ Test edildi |
+| [Monster Abra A5 V16.8](modeller/monster-abra-a5-v16-8.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A5 V17.2](modeller/monster-abra-a5-v17-2.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A5 V17.4](modeller/monster-abra-a5-v17-4.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A5 V20](modeller/monster-abra-a5-v20.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Abra A5 V21](modeller/monster-abra-a5-v21.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Abra A5 V22](modeller/monster-abra-a5-v22.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Abra A7 V12.2](modeller/monster-abra-a7-v12-2.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A7 V12.5](modeller/monster-abra-a7-v12-5.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A7 V13.2](modeller/monster-abra-a7-v13-2.md) | Tek bölge RGB | 🟢 Uyumlu |
+| [Monster Abra A7 V15.3](modeller/monster-abra-a7-v15-3.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Abra A7 V16.2](modeller/monster-abra-a7-v16-2.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Tulpar T5 V23.2](modeller/monster-tulpar-t5-v23-2.md) | Tek bölge RGB | 🟡 Muhtemelen |
+| [Monster Tulpar T6 V3](modeller/monster-tulpar-t6-v3.md) | Tek bölge RGB | 🟡 Muhtemelen |
+
+Monster'ın sitesinde "**RGB Tek Bölge**" yazan Clevo tabanlı diğer modellerde de çalışması beklenir. Modelin listede yoksa ya da denediysen **[sonucu bildir](https://github.com/yysalih/klavye-isik-studyosu/issues/new?template=model-raporu.yml)**.
+
+### Desteklenmeyen modeller
+
+| Model | Klavye | Neden |
+|---|---|---|
+| [Monster Tulpar T7 V20.6](modeller/monster-tulpar-t7-v20-6.md) | Tek bölge RGB | Tongfang kasa (farklı denetleyici) |
+| [Monster Tulpar T5 V18 ve V19](modeller/monster-tulpar-t5-v18-ve-v19.md) | RGB | Tongfang kasa (farklı denetleyici) |
+| [Monster Tulpar T7 V21.5](modeller/monster-tulpar-t7-v21-5.md) | 4 bölge RGB | 4 bölgeli klavye |
+| [Monster Tulpar T7 V26](modeller/monster-tulpar-t7-v26.md) | 4 bölge RGB | 4 bölgeli klavye |
+| [Monster Semruk S7 ve S8](modeller/monster-semruk-s7-ve-s8.md) | Tuş başına RGB | Tuş başına RGB |
+| [Monster Huma H4, H5, H7](modeller/monster-huma-h4-h5-h7.md) | Tek renk (beyaz) | Tek renk, renk değişmez |
+| [Monster Markut M7](modeller/monster-markut-m7.md) | Tek renk (beyaz) | Tek renk, renk değişmez |
+
+3 bölgeli eski Clevo klavyeler deneysel olarak desteklenir (üç bölge aynı renge ayarlanır).
 
 ## Windows programı engelliyorsa
 
@@ -63,37 +112,6 @@ Windows Defender dosyayı yanlışlıkla karantinaya almıştır:
 - Kısayollar: `Ctrl+Alt+K` aç/kapat · `Ctrl+Alt+PgDn/PgUp` efekt · `Ctrl+Alt+Home/End` parlaklık
 
 Tipik kullanım: animasyonlu efektlerde ~%0,1–0,5 işlemci, ~10–15 MB bellek (tepsideyken).
-
-## Uyumlu modeller
-
-Program açıldığında klavye türünü BIOS'tan **kendisi okur** ve üst satırda gösterir
-(örn. `Monster Abra A5 V16.7 · Tek bölge RGB · Doğrudan sürücü bağlantısı`).
-Aşağıdaki liste Monster'ın ürün sayfalarındaki klavye bilgisine ve forum kaynaklarına dayanır.
-
-### Tek bölge RGB (desteklenen)
-
-| Model | Kasa (Clevo) | Durum |
-|---|---|---|
-| Abra A5 V16.7 | NH5x/NH7x | ✅ Test edildi |
-| Abra A5 V16.6, V16.8 | NH58DEQ / NH5x | Uyumlu olması beklenir |
-| Abra A5 V17.x (V17.2, V17.4…) | NH58HKQ / NH58HPQ | Uyumlu olması beklenir |
-| Abra A5 V20.x / V21.x / V22.x | Clevo | Uyumlu olması beklenir |
-| Abra A7 V12.x, V13.x | NH79DEQ / NH77DCQ | Uyumlu olması beklenir |
-| Abra A7 V15.x, V16.x | Clevo | Uyumlu olması beklenir |
-| Tulpar T5 V23.x, Tulpar T6 V3.x | Clevo (muhtemel) | Uyumlu olması beklenir |
-
-Monster'ın sitesinde "**RGB Tek Bölge**" yazan Clevo tabanlı modellerin hepsinde çalışması beklenir.
-Kendi modelinde denediysen sonucu bir *issue* ile bildirirsen listeyi güncelleriz.
-
-### Diğer klavye türleri
-
-| Tür | Örnek modeller | Durum |
-|---|---|---|
-| 3 bölge RGB (Clevo) | eski Clevo kasaları | 🟡 Deneysel: üç bölge aynı renge ayarlanır |
-| Tongfang (Uniwill) kasalı modeller | Tulpar T7 V20.6, bazı Tulpar T5 V18–V19 ve Abra V11–V15 | ❌ Desteklenmiyor (farklı denetleyici) |
-| 4 bölge RGB | Tulpar T7 V21.5, Tulpar T7 V26.x | ❌ Desteklenmiyor / denenmedi |
-| Tuş başına RGB | Semruk S7, Semruk S8 | ❌ Desteklenmiyor |
-| Tek renk (beyaz) | Huma H4/H5/H7, Markut M7 | ❌ Renk değiştirilemez |
 
 ## Kurulum
 

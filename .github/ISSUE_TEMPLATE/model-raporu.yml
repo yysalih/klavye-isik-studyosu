@@ -1,0 +1,46 @@
+name: Model raporu
+description: Programı kendi Monster modelinde denedin mi? Sonucu bildir, uyumlu modeller listesini birlikte büyütelim.
+title: "[Model] Monster "
+labels: ["model-raporu"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Teşekkürler! Bu bilgilerle modelin sayfasını "✅ Test edildi" ya da "❌ Çalışmıyor" olarak güncelleyeceğiz.
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: Bilgisayarın altındaki etikette ya da programın üst satırında yazan tam model.
+      placeholder: "Monster Abra A7 V15.3"
+    validations:
+      required: true
+  - type: input
+    id: ust-satir
+    attributes:
+      label: Programın üst satırında ne yazıyor?
+      description: Başlığın hemen altındaki gri satır.
+      placeholder: "Monster Abra A7 V15.3 · Tek bölge RGB · Doğrudan sürücü bağlantısı"
+    validations:
+      required: true
+  - type: dropdown
+    id: sonuc
+    attributes:
+      label: Sonuç
+      options:
+        - Çalıştı, renkler ve efektler değişiyor
+        - Kısmen çalıştı (açıklamaya yaz)
+        - Çalışmadı, klavye rengi değişmiyor
+        - Program açılmadı
+    validations:
+      required: true
+  - type: input
+    id: surum
+    attributes:
+      label: Program sürümü
+      placeholder: "v1.1.0"
+  - type: textarea
+    id: notlar
+    attributes:
+      label: Notlar
+      description: Çalışmayan efektler, hata mesajları, Windows sürümü vb.
