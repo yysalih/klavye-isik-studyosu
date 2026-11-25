@@ -158,6 +158,19 @@ Gereken: [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:EnableCompressionInSingleFile=true -o dist
 ```
 
+## Destekçiler
+
+Projeye katkı ve destek verenler:
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/yysalih"><img src="https://github.com/yysalih.png?size=100" width="80" alt="yysalih"/><br/><b>yysalih</b></a><br/>Geliştirici</td>
+    <td align="center"><a href="https://github.com/Muhammed-Yakut"><img src="https://github.com/Muhammed-Yakut.png?size=100" width="80" alt="Muhammed-Yakut"/><br/><b>Muhammed-Yakut</b></a><br/>Destekçi</td>
+  </tr>
+</table>
+
+Sen de kendi modelinde deneyip [sonucu bildirerek](../../issues/new?template=model-raporu.yml) destek olabilirsin.
+
 ## Lisans
 
 [MIT](LICENSE)
