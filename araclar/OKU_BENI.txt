@@ -1,0 +1,56 @@
+﻿KLAVYE IŞIK STÜDYOSU  v1.1.0
+============================
+
+Clevo tabanlı Monster dizüstülerin (Abra, Tulpar...) tek bölge RGB klavye ışığı programı.
+Kaynak kod ve uyumlu model listesi: https://github.com/yysalih/klavye-isik-studyosu
+
+KURULUM
+1) Zip'i önce bir klasöre ÇIKART (zip'in içinden çalıştırma). Örnek: Belgeler\KlavyeIsik
+2) KlavyeIsik.exe'ye çift tıkla. Kurulum, .NET ya da yönetici izni gerekmez.
+3) Bilgisayarda Monster "Kontrol Merkezi" (Control Center) sürücüsü kurulu olmalı
+   (Fn tuşlarıyla klavye ışığı değişiyorsa genelde kuruludur).
+4) Programın üst satırında "Tek bölge RGB · Doğrudan sürücü bağlantısı" yazıyorsa her şey yolunda.
+
+WINDOWS PROGRAMI ENGELLİYORSA
+Program imzasız olduğu için Windows ilk açılışta onu tanımaz. Bu bir virüs uyarısı değildir.
+
+1. Mavi ekran "Windows kişisel bilgisayarınızı korudu":
+   "Ek bilgi" bağlantısına tıkla -> "Yine de çalıştır".
+
+2. "Yine de çalıştır" düğmesi yoksa / program hiç açılmıyorsa:
+   Çıkarttığın klasörü sil -> zip'e sağ tık -> Özellikler -> en alttaki
+   "Engellemeyi kaldır" kutusunu işaretle -> Tamam -> zip'i yeniden çıkart.
+
+3. "Tehdit bulundu" bildirimi geldiyse / KlavyeIsik.exe kaybolduysa:
+   Windows Güvenliği -> Virüs ve tehdit koruması -> Koruma geçmişi ->
+   KlavyeIsik kaydı -> Eylemler -> "Geri yükle" / "Cihazda izin ver".
+   Tekrar olmasın diye: Virüs ve tehdit koruması -> Ayarları yönet -> Dışlamalar ->
+   Dışlama ekle -> Klasör -> programın klasörünü seç.
+
+4. "Akıllı Uygulama Denetimi bu uygulamayı engelledi" (Windows 11):
+   Önce 2. adımı dene. Olmazsa: Windows Güvenliği -> Uygulama ve tarayıcı denetimi ->
+   Akıllı Uygulama Denetimi -> Kapalı.
+   DİKKAT: Bazı Windows sürümlerinde bu ayar kapatıldıktan sonra Windows yeniden
+   kurulmadan açılamaz; son çare olarak kullan.
+
+Defender'ı tamamen kapatma; izni sadece bu programın klasörüne ver.
+
+KULLANIM
+- Soldan efekt seç, Renk 1 / Renk 2, parlaklık ve hız ayarla.
+- Pencereyi kapatınca saatin yanındaki simgede çalışmaya devam eder.
+- "Windows açılınca başlat" ile her açılışta otomatik başlar.
+- "Kilitte ışığı kapat": Hemen / 1 dk / 5 dk / Asla.
+
+KISAYOLLAR
+- Ctrl+Alt+K            : ışık aç/kapat
+- Ctrl+Alt+PgDn / PgUp  : efekt değiştir
+- Ctrl+Alt+Home / End   : parlaklık artır / azalt
+
+SORUN ÇIKARSA
+- "Klavye sürücüsü bulunamadı": Monster'ın sitesinden modelinin Kontrol Merkezi sürücüsünü kur.
+- "Yönetici izni gerekli" (eski modeller): üst satırdaki yazıya tıkla, program yönetici olarak açılır.
+- "Tongfang (Uniwill) tabanlı model" / "Tuş başına RGB" / "Tek renk (beyaz)": bu klavye türleri desteklenmiyor.
+
+GİZLİLİK
+Ses kaydı yapmaz, basılan tuşları kaydetmez, ekran görüntüsü saklamaz, internete bağlanmaz.
+Ayarlar: %APPDATA%\KlavyeIsik\ayarlar.json
